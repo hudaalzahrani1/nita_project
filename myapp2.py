@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 
 # Load the dataset
-file_path = '/Users/hudasaleh/Desktop/Salary_Data.csv'  # Ensure the CSV file exists in this path
+file_path = 'Salary_Data.csv'  # Ensure the CSV file exists in this path
 try:
     data = pd.read_csv(file_path)
     # Streamlit app UI
